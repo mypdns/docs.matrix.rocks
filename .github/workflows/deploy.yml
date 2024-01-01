@@ -1,13 +1,14 @@
 name: Build documentation
 
 on:
+  # If specified, the workflow will be triggered automatically once you push to the `main` branch.
+  # Replace `main` with your branch’s name
   push:
-    # To trigger the workflow once you push to the `main` branch
-    # Replace `main` with your branch’s name
     branches: ["master"]
   # Specify to run a workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
+# Gives the workflow permissions to clone the repo and create a page deployment
 permissions:
   id-token: write
   pages: write
@@ -15,9 +16,9 @@ permissions:
 env:
   # Name of module and id separated by a slash
   INSTANCE: Writerside/master
-  # Replace XX with the ID of the instance in capital letters
+  # Replace HI with the ID of the instance in capital letters
   ARTIFACT: webHelpmaster2-all.zip
-  # Docker image version
+  # Writerside docker image version
   DOCKER_VERSION: 233.4797
 
 jobs:
@@ -35,22 +36,40 @@ jobs:
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
-      - name: Upload artifact
+      - name: Upload documentation
         uses: actions/upload-artifact@v3
         with:
           name: docs
           path: |
             artifacts/${{ env.ARTIFACT }}
+            artifacts/report.json
           retention-days: 7
+
+  # Add the job below and artifacts/report.json on Upload documentation step above if you want to fail the build when documentation contains errors
+  test:
+    # Requires build job results
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: docs
+          path: artifacts
+
+      - name: Test documentation
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+          instance: ${{ env.INSTANCE }}
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    # Requires build job results
-    needs: build
+    # Requires the build job results
+    needs: test
     runs-on: ubuntu-latest
-
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v3
