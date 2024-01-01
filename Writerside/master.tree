@@ -4,7 +4,7 @@
         "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="master"
-                  name="Matrix Docs"
+                  name="Matrix"
                   start-page="About.topic">
 
     <toc-element topic="About.topic"/>
