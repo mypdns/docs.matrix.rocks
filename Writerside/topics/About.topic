@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM
+        "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic id="About"
+       title="About"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+
+    <p>
+        Here is the our attempt to make some guidance for
+        <format color="Crimson">when</format>
+        and
+        <format color="Chartreuse">when not</format>
+        to
+        use <a href="https://matrix.rocks/tags/SensitiveContents">#SensitiveContents</a>
+        and/or <a href="https://matrix.rocks/tags/CW">#CW</a> fields.
+    </p>
+
+    <p>
+        You can always find actual changes through this public documentation.
+    </p>
+
+    <chapter id="feedback-and-support" title="Feedback and support">
+        Please report any issues, usability improvements, or feature requests
+        to the
+        <a href="https://kb.mypdns.org/newIssue?project=MR">My Privacy DNS
+            project</a>
+        (you will need to register).
+    </chapter>
+</topic>

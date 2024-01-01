@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE instance-profile
-        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+        SYSTEM
+        "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="master"
-                 name="master"
-                 start-page="starter-topic.md">
+                  name="Matrix Docs"
+                  start-page="About.topic">
 
-    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="About.topic"/>
+    <toc-element topic="Acceptable-Use-Policy.topic"/>
 </instance-profile>

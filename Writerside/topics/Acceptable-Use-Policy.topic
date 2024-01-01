@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM
+        "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic id="Acceptable-Use-Policy"
+       title="Acceptable Use Policy"
+       xmlns=""
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+
+    <p>
+        Hereby the acceptable use policy for <a href="https://matrix.rocks/">
+        matrix.rocks</a>, hereafter refereed to as
+        <tooltip term="aup">AUP</tooltip>
+        .
+    </p>
+    <p>
+        This
+        <tooltip term="aup">AUP</tooltip>
+        is divided into three types of laws:
+    </p>
+
+    <tip id="recommendations" title="Recommendations">
+        <tooltip term="Recommendations">Recommendations</tooltip>
+        are as such not rules as this is soft elastic rules with some room
+        for stretching and bending as long nobody is hurt or suffers and
+        mostly written to help you make good tooth's.
+    </tip>
+
+    <note title="Guidelines">
+        <tooltip term="Guidelines">Guidelines</tooltip>
+        are rules we pledge
+        you to follow, this is to make <a href="https://matrix.rocks/">matrix
+        .rocks</a> a pleasant place for the Fediverse and not at least My
+        Privacy DNS official and public communication channel.
+
+        Guidelines are soft rules, that can leads to suspension of a user
+        account.
+    </note>
+
+    <warning title="Rules">
+
+        <tooltip term="rule">Rules</tooltip>
+        most be obeyed, these are laws. Breaking this rules will lead to
+        suspension of your user account.
+    </warning>
+
+    <chapter caps="sentence" title="Contents policy">
+        <p>
+            This is a
+            <tooltip term="rule">Rule</tooltip>
+        </p>
+        <chapter title="Sensitive contents">
+            <p>
+                This chapter is concerning Sexual explicit contents
+            </p>
+            <list sorted="asc">
+                <li>Adult</li>
+                <li>Parental Advisory</li>
+                <li>Porn</li>
+                <li>R rated</li>
+                <li>XXX</li>
+            </list>
+
+            <p>
+                Adult contents is accepted, but not at the big distribution
+                central for free as it will eat up our disk space rather
+                quickly.
+            </p>
+            <p>
+                If anyone would like to use this server as such, they will
+                donate to the cost of the servers.
+            </p>
+            <p>
+                The donation sum will be calculated as follows:
+            </p>
+            <code-block lang="tex">
+                \begin{equation}
+                Your\ donation = \frac{Server\ costs\ * 125\%}{number\ of NSFW
+                and\ heavy\ media\ usage\ members}
+                \end{equation}
+            </code-block>
+            <p>
+                You are required to cover this costs in advance.
+            </p>
+            <p>
+                You shall use the contents warning (#cw) in cases where your
+                message contains explicit text material.
+            </p>
+            <p>
+                You shall mark all explicit media contents as sensitive
+                according to Sensitive content definition
+            </p>
+        </chapter>
+    </chapter>
+
+</topic>
