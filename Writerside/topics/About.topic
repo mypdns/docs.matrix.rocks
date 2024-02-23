@@ -4,7 +4,8 @@
         "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic id="About"
        title="About"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <p>
         Here is the our attempt to make some guidance for
@@ -27,4 +28,17 @@
             project</a>
         (you will need to register).
     </chapter>
+
+    <video height="480" mini-player="true"
+           preview-src="https://cdn.metartnetwork.com/94DB3D0036FC11E1B86C0800200C9A66/media/8ABA1B215CA2FB94B5942CD2FD9A13B2/wide_8ABA1B215CA2FB94B5942CD2FD9A13B2.jpg"
+           src="https://bitbucket.org/whitegirls18/2020.07.12-sexart-melody-petite-and-alexis-crystal-and-nancy-a/raw/f082035571e10045351d97b3b41e3cd03a0ffad7/static/videos/sexart.20.07.12.melody.petite.alexis.crystal.and.nancy.a.holiday.on.mykonos.7.mp4"
+           width="854"/>
+
+    <code-block><![CDATA[
+        <video width="854" height="480" poster="static/cover/wide_8ABA1B215CA2FB94B5942CD2FD9A13B2.jpg" controls muted>
+            <source src="static/videos/sexart.20.07.12.melody.petite.alexis.crystal.and.nancy.a.holiday.on.mykonos.7.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    ]]></code-block>
+
 </topic>
