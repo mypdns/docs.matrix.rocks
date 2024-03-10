@@ -41,16 +41,16 @@
     <warning title="Rules">
 
         <tooltip term="rule">Rules</tooltip>
-        most be obeyed, these are laws. Breaking this rules will lead to
+        must be obeyed, these are laws. Breaking any rules will lead to
         suspension of your user account.
     </warning>
 
-    <chapter caps="sentence" title="Contents policy">
+    <chapter caps="sentence" id="contents-policy" title="Contents policy">
         <p>
             This is a
             <tooltip term="rule">Rule</tooltip>
         </p>
-        <chapter title="Sensitive contents">
+        <chapter id="sensitive-contents" title="Sensitive contents">
             <p>
                 This chapter is concerning Sexual explicit contents
             </p>
@@ -91,6 +91,36 @@
                 You shall mark all explicit media contents as sensitive
                 according to Sensitive content definition
             </p>
+        </chapter>
+        <chapter id="art-erotic" title="Art erotic">
+            <p>This is a
+                <tooltip term="Guidelines">Guideline</tooltip>
+            </p>
+
+            If and when you posts artistic contents you are giving a git more
+            freedom to avoid using the
+            <tooltip term="cw">Content
+                Warning
+            </tooltip>
+            , Our guidelines will always follow My Privacy
+            DNS guidelines to this letter. You can always stay updated through
+            the Matrix <a
+                href="https://github.com/mypdns/matrix/tree/master/source/porn_filters#artistic-and-art">README</a>
+
+            <tip id="note-considered-art">
+                What should be considered art is content that could be found at
+                a museum for arts.
+            </tip>
+
+            We acknowledge this is a broad spectrum to operate within,
+            meaning the ruling will be a judgement from case to case by
+            admins and moderators. We do not shoot people for trying ti find
+            the line between using and not have to use the
+            <tooltip term="cw">Content
+                Warning
+            </tooltip>
+            at their posted content.
+
         </chapter>
     </chapter>
 

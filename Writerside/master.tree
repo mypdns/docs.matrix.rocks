@@ -7,8 +7,8 @@
                   name="Matrix"
                   start-page="About.topic">
 
-    <toc-element topic="Server-blacklist.md"/>
-    <toc-element topic="About.topic"/>
-    <toc-element topic="Bullies.md"/>
     <toc-element topic="Acceptable-Use-Policy.topic"/>
+    <toc-element topic="Bullies.md"/>
+    <toc-element topic="About.topic"/>
+    <toc-element topic="Server-blacklist.md"/>
 </instance-profile>
