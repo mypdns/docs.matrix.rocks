@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM
+        "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic id="Privacy"
+       title="Privacy"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+
+    <p>
+        At <a href="https://go.matrix.rocks/"
+              title="Matrix.rocks log sevice">https://go.matrix
+        .rocks/</a>., we do have two kind of logging systems
+        enabled.
+    </p>
+    <procedure id="whatislogging" title="What is logging">
+        <step>The webserver Log, deleted after second log rotation</step>
+
+        <step>MissKeys log, not storing IP addresses</step>
+
+        <step>Matomo, on
+            <a href="https://go.matrix.rocks/"
+               title="Matrix.rocks log sevice">go.matrix
+                .rocks</a>.
+        </step>
+    </procedure>
+
+
+    <chapter id="before" title="How are the logs used">
+        <p>We are using the logs for two thing, an only these two things.</p>
+
+        <list>
+            <li>In case of disruption, we are using the logs for
+                investigate and find a solution
+            </li>
+            <li>Curiosity of our users origin ih general (country)</li>
+        </list>
+    </chapter>
+
+    <chapter id="how-to" title="Data sharing">
+        <p>
+            Do you in any way share any data, that is not public available,
+            true the MissKey web interface.
+        </p>
+
+        <p>
+            No we do not deliberately share any data with any third party. <b>AT
+            ALL</b>
+
+            We care about your human right to privacy, as well as we fight for
+            our own right to privacy and free democracy.
+        </p>
+    </chapter>
+</topic>
