@@ -8,16 +8,6 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <p>
-        Here is our attempt to make some guidance for
-        <format color="Crimson">when</format>
-        and
-        <format color="Chartreuse">when not</format>
-        to
-        use <a href="https://matrix.rocks/tags/SensitiveContents">#SensitiveContents</a>
-        and/or <a href="https://matrix.rocks/tags/CW">#CW</a> fields.
-    </p>
-
-    <p>
         You can always find actual changes through this public documentation.
     </p>
 

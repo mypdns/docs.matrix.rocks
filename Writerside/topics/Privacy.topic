@@ -8,9 +8,9 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <p>
-        At <a href="https://go.matrix.rocks/"
-              title="Matrix.rocks log sevice">https://go.matrix
-        .rocks/</a>., we do have two kind of logging systems
+        At <a href="https://matrix.rocks/"
+              title="Matrix.rocks log sevice">https://matrix
+        .rocks/</a>, we do have two kind of logging systems
         enabled.
     </p>
     <procedure id="whatislogging" title="What is logging">
