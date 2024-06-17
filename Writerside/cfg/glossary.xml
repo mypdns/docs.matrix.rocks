@@ -2,14 +2,24 @@
 <!DOCTYPE terms SYSTEM
         "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
 <terms>
-    <term name="GUI">Graphical User Interface</term>
-    <term name="tooltip">Tooltips show a definition when a user hovers over a
-        term.
+    <term name="big_tech">Big Tech, also known as the Tech Giants, are the
+        largest IT companies in the world. The concept of Big Tech is similar to
+        the grouping of dominant companies in other sectors. It generally
+        includes the Big Five tech companies in the United States: Alphabet,
+        Amazon, Apple, Meta, and Microsoft.
     </term>
+
     <term name="DNS">Domain Name Service</term>
-    <term name="rule">Rules most be obeyed, these are laws. Breaking any
-        rules might very well lead to suspension of your user account.
+
+    <term name="fediverse">The fediverse is a collection of social networking
+        services that can communicate with each other using a common protocol.
+        Users of different websites can send and receive status updates,
+        multimedia files and other data across the network. The term fediverse
+        is a portmanteau of "federation" and "universe".
     </term>
+
+    <term name="GUI">Graphical User Interface</term>
+
     <term name="Guidelines">#Guidelines are rules we pledge you to follow, to
         make matrix.rocks a pleasant place for the Fediverse and not at least My
         Privacy DNS official and public communication channel.
@@ -17,22 +27,70 @@
         Guidelines are soft rules, that can leads to suspension of a user
         account.
     </term>
+
+    <term name="mitm">Man-in-the-middle attack.
+        In cryptography and computer security, a man-in-the-middle attack, or
+        on-path attack, is a cyberattack where the attacker secretly relays and
+        possibly alters the communications between two parties who believe that
+        they are directly communicating with each other, as the attacker has
+        inserted themselves between the two parties
+    </term>
+
     <term name="Recommendations">Recommendations is as such not rules as this is
         soft elastic rules with some room for stretching and bending as long
         nobody is hurt or suffers and mostly written to help you make good
         tooth's.
     </term>
+
+    <term name="rule">Rules most be obeyed, these are laws. Breaking any
+        rules might very well lead to suspension of your user account.
+    </term>
+
+    <term name="suspend_account">Account suspension, is when you no
+        longer can log in or use your account to post to matrix.rocks,
+        yet your account is maintained and not deleted.
+        In other words, you are permanently logged out from matrix.rocks
+        Fediverse instance.
+    </term>
+
+    <term name="tooltip">Tooltips show a definition when a user hovers over a
+        term.
+    </term>
+
+    <term name="privacy">We at My Privacy DNS loves the rights to
+        Privacy, and we do our best to respect your same right to
+        online freedom and National democracy, away from the big tech's
+        privacy invasive behaviour.
+    </term>
+
     <term name="Porn">Adult contents</term>
+
     <term name="XXX">Adult contents</term>
+
     <term name="Adult">Adult contents</term>
+
     <term name="rRated">Adult contents</term>
+
     <term name="ParentalAdvisory">Adult contents</term>
+
     <term name="aup">Acceptable Use Policy</term>
+
     <term name="cw">Contents Warning feature.
         The Contents warning, is a feature used by the Fediverse, to tell
         other that an attachment should be considered as sensitive for
         minors and in some degree to underage / underdeveloped people
         like newborn christians and other fat American female's, who have
         lost their reality senses
+    </term>
+
+    <term name="walledgarden">Walled Garden is a term used for the big
+        tech companies, for whom you are the product. E.g. YouTube,
+        Facebook and
+        CloudFlare
+
+        Another common about the Walled Garden it the big
+        tech do not respect you at all, they hate freedom and
+        democracy.
+
     </term>
 </terms>

@@ -18,11 +18,6 @@
 
         <step>MissKeys log, not storing IP addresses</step>
 
-        <step>Matomo, on
-            <a href="https://go.matrix.rocks/"
-               title="Matrix.rocks log sevice">go.matrix
-                .rocks</a>.
-        </step>
     </procedure>
 
 

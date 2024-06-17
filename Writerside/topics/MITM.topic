@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM
+        "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic id="MITM"
+       title="Man-in-the-middle attack"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+
+    <p>
+        In cryptography and computer security, a man-in-the-middle attack, or
+        on-path attack, is a cyberattack where the attacker secretly relays and
+        possibly alters the communications between two parties who believe that
+        they are directly communicating with each other, as the attacker has
+        inserted themselves between the two parties.
+    </p>
+
+    <chapter
+            id="what-is-mitm" title="What is MITM">
+        <p>
+            One example of a MITM attack is active eavesdropping, in which the
+            attacker makes independent connections with the victims and relays
+            messages between them to make them believe they are talking directly
+            to each other over a private connection, when in fact the entire
+            conversation is controlled by the attacker. In this scenario, the
+            attacker must be able to intercept all relevant messages passing
+            between the two victims and inject new ones. This is straightforward
+            in many circumstances; for example, an attacker within range of an
+            Wi-Fi access point hosting a network without encryption could insert
+            themselves as a man in the middle.
+        </p>
+
+        <p>
+            As it aims to circumvent mutual authentication, a MITM attack can
+            succeed only when the attacker impersonates each endpoint
+            sufficiently well to satisfy their expectations. Most cryptographic
+            protocols include some form of endpoint authentication specifically
+            to prevent MITM attacks. For example, TLS can authenticate one or
+            both parties using a mutually trusted certificate authority.
+        </p>
+    </chapter>
+    <chapter id="glossary" title="Glossary">
+        <p>A definition list or a glossary:</p>
+        <deflist>
+            <def title="MITM">
+                Man in the middle
+            </def>
+            <def title="Term2">
+                This is the definition of the second term.
+            </def>
+        </deflist>
+    </chapter>
+</topic>

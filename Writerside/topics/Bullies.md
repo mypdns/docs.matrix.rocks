@@ -11,10 +11,10 @@
 @mwadmin@mastodon.world You mean like you are and have been
 spamming https://matrix.rocks/ for the
 past tree month, or rather since day one, the instance came alive, first with
-a Pleroma instance, since then with the current Miss key server.
+a Pleroma instance, since then with the current MissKey server.
 
 Who do you think you are, the #internetPolice? since you are threatening our
-users on opur platform in this way? Or are you just simply bullies that
+users on our platform in this way? Or are you just simply bullies that
 tries to undermine smaller instances, like Mark Zuckerberg's attempt on take
 down the Fediverse for good? (https://www.reck.
 dk/copy-acquire-kill-how-meta-could-pull-off-the-most-extraordinary-pivot-in-tech-history/)

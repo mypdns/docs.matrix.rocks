@@ -5,11 +5,16 @@
 
 <instance-profile id="master"
                   name="Matrix"
-                  start-page="About.topic">
+                  start-page="StartPage.topic">
 
-    <toc-element topic="Acceptable-Use-Policy.topic"/>
-    <toc-element topic="Bullies.md"/>
-    <toc-element topic="About.topic"/>
-    <toc-element topic="Privacy.topic"/>
+    <toc-element topic="StartPage.topic">
+        <toc-element topic="About.topic"/>
+        <toc-element topic="Acceptable-Use-Policy.topic"/>
+        <toc-element topic="FAQ.topic">
+            <toc-element topic="MITM.topic"/>
+        </toc-element>
+        <toc-element topic="Privacy.topic"/>
+    </toc-element>
     <toc-element topic="Server-blacklist.md"/>
+    <toc-element topic="Bullies.md"/>
 </instance-profile>

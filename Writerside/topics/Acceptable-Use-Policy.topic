@@ -15,6 +15,15 @@
         .
     </p>
     <p>
+        Guidelines for
+        <format color="Crimson">when</format>
+        and
+        <format color="Chartreuse">when not</format>
+        to
+        use <a href="https://matrix.rocks/tags/SensitiveContents">#SensitiveContents</a>
+        and/or <a href="https://matrix.rocks/tags/CW">#CW</a> fields.
+    </p>
+    <p>
         This
         <tooltip term="aup">AUP</tooltip>
         is divided into three types of laws:
@@ -74,12 +83,12 @@
             <p>
                 The donation sum will be calculated as follows:
             </p>
-            <code-block lang="tex">
+            <code-block lang="tex"><![CDATA[
                 \begin{equation}
                 Your\ donation = \frac{Server\ costs\ * 125\%}{number\ of NSFW
                 and\ heavy\ media\ usage\ members}
                 \end{equation}
-            </code-block>
+            ]]></code-block>
             <p>
                 You are required to cover this costs in advance.
             </p>
@@ -98,7 +107,7 @@
                 <tooltip term="Guidelines">Guideline</tooltip>
             </p>
 
-            If and when you posts artistic contents you are giving a git more
+            If and when you post artistic contents you are giving a git more
             freedom to avoid using the
             <tooltip term="cw">Content
                 Warning
@@ -123,6 +132,71 @@
             at their posted content.
 
         </chapter>
+    </chapter>
+
+    <chapter caps="sentence" id="unacceptable-contents"
+             title="unacceptable contents">
+        <p>
+            This is a
+            <tooltip term="rule">Rule</tooltip>
+        </p>
+
+        <p>
+            The
+            <tooltip term="fediverse">fediverse</tooltip>
+            was developed as a privacy aware alternative to all the
+            <tooltip term="walledgarden">walled garden</tooltip>
+            <tooltip term="big_tech">big tech</tooltip>
+            companies out there.
+        </p>
+
+        <p>
+            This means we are taking
+            <tooltip term="privacy">privacy</tooltip>
+            rather seriously, and
+            we do not hesitate to
+            <tooltip term="suspend_account">suspend</tooltip>
+            your account if
+            you brake these idea's of a privacy aware fora.<br>
+            If you are using any of the big tech sites anyway, please stick
+            to the walled garden, you are not welcome in the Fediverse, and
+            you are obviously not interested in our concept anyway.
+        </br>
+        </p>
+        <p>
+            You have better alternatives, than abusing the Fediverse.
+            <br>
+                Here is a few bad examples
+            </br>
+        </p>
+
+        <warning id="4warning3">
+            <list type="bullet">
+                <li>X (twitter)</li>
+                <li>Fakebook</li>
+                <li>Alphabet sites (Google)</li>
+                <li>youtube</li>
+            </list>
+        </warning>
+
+        <p>
+            By posting contents from or links to, and not limited to, any of
+            the mentioned above bad examples, your account are suspended as
+            fast as they are observed.
+        </p>
+
+        <p>
+            Other dislikes contents, are Mastodon and other Fediverse server
+            hosted on
+            <tooltip term="mitm">MITM</tooltip>
+            networks like ClodFlare
+        </p>
+
+        <p>
+            Instances running behind the insecure and decrypting network like
+            CloudFlare and Amazon are silenced, and in some cases blacklisted.
+        </p>
+
     </chapter>
 
 </topic>
