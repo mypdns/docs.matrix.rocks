@@ -312,9 +312,9 @@
 
     </chapter>
 
-    <chapter caps="title" id="forbidden-posts" title="Forbidden Posts">
+    <chapter caps="title" id="forbidden-content" title="Forbidden Content">
         <title>Forbidden Posts</title>
-        <link-summary>Forbidden Posts</link-summary>
+        <link-summary>Forbidden Content</link-summary>
 
         <warning>
             <p>
