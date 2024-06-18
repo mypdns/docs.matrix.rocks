@@ -7,9 +7,9 @@
        xmlns=""
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
-
+    <show-structure depth="3" for="chapter"/>
     <p>
-        Hereby the acceptable use policy for <a href="https://matrix.rocks/">
+        Acceptable Use Policy for <a href="https://matrix.rocks/">
         matrix.rocks</a>, hereafter refereed to as
         <tooltip term="aup">AUP</tooltip>
         .
@@ -54,149 +54,511 @@
         suspension of your user account.
     </warning>
 
-    <chapter caps="sentence" id="contents-policy" title="Contents policy">
+    <chapter caps="title" id="contents-policy" title="Contents policy">
         <p>
             This is a
             <tooltip term="rule">Rule</tooltip>
         </p>
-        <chapter id="sensitive-contents" title="Sensitive contents">
-            <p>
-                This chapter is concerning Sexual explicit contents
-            </p>
-            <list sorted="asc">
-                <li>Adult</li>
-                <li>Parental Advisory</li>
-                <li>Porn</li>
-                <li>R rated</li>
-                <li>XXX</li>
-            </list>
 
-            <p>
-                Adult contents is accepted, but not at the big distribution
-                central for free as it will eat up our disk space rather
-                quickly.
-            </p>
-            <p>
-                If anyone would like to use this server as such, they will
-                donate to the cost of the servers.
-            </p>
-            <p>
-                The donation sum will be calculated as follows:
-            </p>
-            <code-block lang="tex"><![CDATA[
+        <chapter caps="title" id="sensitive-contents"
+                 title="Sensitive contents">
+            <warning>
+                <p>
+                    This chapter is concerning Sexual explicit contents
+                </p>
+
+                <list sorted="asc" type="bullet">
+                    <li help-id="adult">Adult</li>
+                    <li help-id="pa">Parental Advisory</li>
+                    <li help-id="porn">Porn</li>
+                    <li help-id="rRated">R rated</li>
+                    <li help-id="xxx">XXX</li>
+                </list>
+
+                <p>
+                    Adult contents is accepted, but not at the big distribution
+                    central for free as it will eat up our disk space rather
+                    quickly.
+                </p>
+                <p>
+                    If anyone would like to use this server as such, they will
+                    donate to the cost of the servers.
+                </p>
+                <p>
+                    The donation sum will be calculated as follows:
+                </p>
+                <code-block lang="tex"><![CDATA[
                 \begin{equation}
                 Your\ donation = \frac{Server\ costs\ * 125\%}{number\ of NSFW
                 and\ heavy\ media\ usage\ members}
                 \end{equation}
             ]]></code-block>
-            <p>
-                You are required to cover this costs in advance.
-            </p>
-            <p>
-                You shall use the contents warning (#cw) in cases where your
-                message contains explicit text material.
-            </p>
-            <p>
-                You shall mark all explicit media contents as sensitive
-                according to Sensitive content definition
-            </p>
+                <p>
+                    You are required to cover this costs in advance.
+                </p>
+                <p>
+                    You shall use the contents warning (#cw) in cases where your
+                    message contains explicit text material.
+                </p>
+                <p>
+                    You shall mark all explicit media contents as sensitive
+                    according to Sensitive content definition
+                </p>
+            </warning>
+
+            <chapter caps="title"
+                     id="defining-sensitive-content"
+                     title="Defining Sensitive content">
+                <link-summary>How we define Adult
+                    contents and requires the Content Warning
+                </link-summary>
+                <p>
+                    <a href="https://matrix.rocks/">matrix.rocks</a> and My
+                    Privacy DNS uses Matrix's
+                    <a href="https://github.com/mypdns/matrix/tree/master/source/porn_filters#classifications-definitions">adult
+                        contents definitions</a>
+                    as guidelines, unless otherwise defined below.
+                </p>
+                In addition to the listed rules, the following supersedes My
+                Privacy DNS rules:
+                <p>
+                    The Art and Education exception, do not cover for explicit
+                    nudity <sup><a
+                        href="Acceptable-Use-Policy.topic#art-erotic">
+                    [1]</a></sup>
+                </p>
+
+            </chapter>
+
+            <chapter caps="title" id="explicit-nudity" title="Explicit Nudity">
+                <link-summary>Definition for explicit nudity</link-summary>
+                <warning>
+                    <p>
+                        By explicit nudity, we mean that nipples, vaginal, penis
+                        or anus openings are revealed.
+                    </p>
+                </warning>
+
+                <chapter id="explicit-examples"
+                         title="Examples of Explicit Nudity">
+
+                    <p>
+                        The following links represent the default
+                        perspective for how to define sensitive contents, and
+                        how to mark toot's with `CW` and Attachments as
+                        <code>sensitive contents</code>
+                    </p>
+
+                </chapter>
+
+            </chapter>
+
+            <deflist>
+                <def id="you-can-see-the-nipple" title="You can see the nipple">
+                    <code-block lang="http">
+                        https://matrix.rocks/notes/9unloucg1b
+                    </code-block>
+                </def>
+
+                <def id="vulva-is-exposed" title="Vulva is exposed.">
+                    <code-block lang="http">
+                        https://matrix.rocks/notes/9itpg9bsxs
+                        https://matrix.rocks/notes/9uns1eqo5g
+                    </code-block>
+                </def>
+
+                <def id="explicit-even-it-is-covered-by-the-art-exception"
+                     title="Explicit even it is covered by the art
+                    exception.">
+
+                    <code-block lang="http request">
+                        https://matrix.rocks/notes/9uneudnsj3
+                        https://matrix.rocks/notes/9uncp740pc
+                        https://matrix.rocks/notes/9unmeodn7u
+                    </code-block>
+
+                </def>
+
+                <def id="content-warning-is-required"
+                     title="Content warning is required">
+                    <p>
+                        As this image is sexual oriented and would not be
+                        considered artistic.
+                    </p>
+
+                    <code-block lang="http">
+                        https://matrix.rocks/notes/9ungzio0mq
+                    </code-block>
+                    <deflist>
+                        <def id="exceptions" title="Exceptions">
+
+                            <p>
+                                Could be <a
+                                    href="#art-erotic"
+                                    rel="art-erotic">artistic</a>,
+                                as it isn't explicitly sexual oriented.
+                            </p>
+                            <code-block lang="http">
+                                https://matrix.rocks/notes/9un69sv4k3
+                                https://matrix.rocks/notes/9un1ze80wy
+                                https://matrix.rocks/notes/9umyygxcfo
+                            </code-block>
+
+                        </def>
+                    </deflist>
+                </def>
+
+                <def id="border-line-examples" title="Border line examples">
+                    <p>
+                        Example where the Content warning is not required, as
+                        they do not differ much from a bikini on any public
+                        beach.
+                    </p>
+
+                    <p>
+                        The verdict on the following examples might swing both
+                        ways as nothing is revealed, but the image can have
+                        some sexuality, and also artistic and/or just
+                        ordinary normal situations.
+                    </p>
+
+                    <code-block lang="http">
+                        https://matrix.rocks/notes/9untukf4l9
+                        https://matrix.rocks/notes/9unorle8au
+                        https://matrix.rocks/notes/9isrc94kvi
+                        https://matrix.rocks/notes/9issm9xjy6
+                    </code-block>
+
+                </def>
+
+            </deflist>
+
+            <deflist id="artistic-examples">
+                <def id="artistic-examples-1" title="Artistic Examples">
+                    <title>Artistic Examples</title>
+                    <p>
+                        The following are links to Artistic Examples, that
+                        contains some nudity in a <b>none</b> pornographic way.
+                    </p>
+                    <p>
+                        The important here, is the purpose of the contents
+                        never was created as porn, but solely for the sake of
+                        art. This can be any kind, such painted and
+                        photographic images.
+                    </p>
+                    <code-block lang="http">
+                        https://miniwa.moe/notice/AZ3a8v0S0TXJACbiJU
+                    </code-block>
+                </def>
+            </deflist>
+
+            <chapter id="art-erotic" title="Erotic Art">
+                <link-summary>
+                    Special rules for contents with erotic art
+                </link-summary>
+                <p>This is a
+                    <tooltip term="Guidelines">Guideline</tooltip>
+                </p>
+                <note>
+                    <p>
+                        If and when you post artistic contents, you are giving a
+                        bit more freedom to avoid using the
+                        <tooltip term="cw">Content Warning</tooltip>
+                        .
+                    </p>
+
+                    <p>
+                        Our guidelines will always follow My Privacy
+                        DNS guidelines to this letter.
+                    </p>
+
+                    <p>
+                        You can always stay updated through the Matrix <a
+                            href="https://github.com/mypdns/matrix/tree/master/source/porn_filters#artistic-and-art">README</a>
+                    </p>
+                </note>
+
+                <tip id="note-considered-art">
+                    What should consider art, is content, that can be found
+                    on museums of arts and similar places.
+                </tip>
+
+                <note>
+                    <p>
+                        We acknowledge this is a broad spectrum to operate
+                        within.
+                    </p>
+                    <p>
+                        Meaning the ruling will be a judgement from case to
+                        case by admins and moderators.
+                    </p>
+                    <p>
+                        We do not shoot people for trying to find the line
+                        between using and not have to use the
+                        <tooltip term="cw">Content Warning</tooltip>
+                        at their posted content.
+
+                    </p>
+
+                    <p>
+                        You can see some examples for artistic posts <a
+                            description="Artistic nude examples"
+                            href="#artistic-examples" rel="artistic-examples">here</a>
+                    </p>
+                </note>
+            </chapter>
+
         </chapter>
 
-        <chapter id="art-erotic" title="Art erotic">
-            <p>This is a
-                <tooltip term="Guidelines">Guideline</tooltip>
-            </p>
-
-            If and when you post artistic contents you are giving a git more
-            freedom to avoid using the
-            <tooltip term="cw">Content
-                Warning
-            </tooltip>
-            , Our guidelines will always follow My Privacy
-            DNS guidelines to this letter. You can always stay updated through
-            the Matrix <a
-                href="https://github.com/mypdns/matrix/tree/master/source/porn_filters#artistic-and-art">README</a>
-
-            <tip id="note-considered-art">
-                What should be considered art is content that could be found at
-                a museum for arts.
-            </tip>
-
-            We acknowledge this is a broad spectrum to operate within,
-            meaning the ruling will be a judgement from case to case by
-            admins and moderators. We do not shoot people for trying ti find
-            the line between using and not have to use the
-            <tooltip term="cw">Content
-                Warning
-            </tooltip>
-            at their posted content.
-
-        </chapter>
     </chapter>
 
-    <chapter caps="sentence" id="unacceptable-contents"
-             title="unacceptable contents">
-        <p>
-            This is a
-            <tooltip term="rule">Rule</tooltip>
-        </p>
+    <chapter caps="title" id="forbidden-posts" title="Forbidden Posts">
+        <title>Forbidden Posts</title>
+        <link-summary>Forbidden Posts</link-summary>
 
-        <p>
-            The
-            <tooltip term="fediverse">fediverse</tooltip>
-            was developed as a privacy aware alternative to all the
-            <tooltip term="walledgarden">walled garden</tooltip>
-            <tooltip term="big_tech">big tech</tooltip>
-            companies out there.
-        </p>
+        <warning>
+            <p>
+                This is a
+                <tooltip term="rule">Rule</tooltip>
+            </p>
 
-        <p>
-            This means we are taking
-            <tooltip term="privacy">privacy</tooltip>
-            rather seriously, and
-            we do not hesitate to
-            <tooltip term="suspend_account">suspend</tooltip>
-            your account if
-            you brake these idea's of a privacy aware fora.<br>
-            If you are using any of the big tech sites anyway, please stick
-            to the walled garden, you are not welcome in the Fediverse, and
-            you are obviously not interested in our concept anyway.
-        </br>
-        </p>
-        <p>
-            You have better alternatives, than abusing the Fediverse.
-            <br>
-                Here is a few bad examples
-            </br>
-        </p>
+            <p>
+                Posts matching below listed reasons, will be removed by admins
+                or moderators without voting.
+            </p>
+            <p>
+                If there are bad posts which does not meet the above criteria,
+                we may ask for user voting, for the democratic process toward
+                which action to take.
+            </p>
 
-        <warning id="4warning3">
-            <list type="bullet">
-                <li>X (twitter)</li>
-                <li>Fakebook</li>
-                <li>Alphabet sites (Google)</li>
-                <li>youtube</li>
+            <list sorted="none" type="bullet">
+                <li>Child Sexual Abusive Material (Child Porn), including
+                    AI-generated contents
+                </li>
+                <li>Gore contents</li>
+                <li>Religious contents</li>
+                <li>Cats only contents</li>
+                <li>dis- and misinformation, Misleading facts</li>
+                <li>Spyware, Malicious or Phishing contents and likes</li>
+                <li>Tracking, Advert, Trolling or Spamming the community
+                </li>
+                <li>Posts that does not follow Contributor Covenant Code of
+                    Conduct (COC)
+                </li>
             </list>
+
+            <p>
+                We will - _unlike other instance_ - NOT just ban or delete
+                peoples users accounts, we will try to communicate with
+                users, if possible, to tell them if we are unsatisfied about
+                something, or if there should be any misunderstanding for any
+                parts involved.
+            </p>
+
+            <p>
+                The
+                <tooltip term="fediverse">fediverse</tooltip>
+                was developed as a privacy aware alternative to all the
+                <tooltip term="walledgarden">walled garden</tooltip>
+                <tooltip term="big_tech">big tech</tooltip>
+                companies out there.
+            </p>
+
+            <p>
+                This means we are taking
+                <tooltip term="privacy">privacy</tooltip>
+                rather seriously, and we do not hesitate to
+                <tooltip term="suspend_account">suspend</tooltip>
+                your account if you brake these idea's of a privacy aware
+                fora.<br>
+                If you are using any of the big tech sites anyway, please stick
+                to the walled garden, you are not welcome in the Fediverse, and
+                you are obviously not interested in our concept anyway.
+            </br>
+            </p>
+
+            <p>
+                You have better alternatives, than abusing the Fediverse.
+                <br>
+                    Here is a few bad examples
+                </br>
+            </p>
+
+            <list sorted="asc" type="bullet">
+                <li help-id="twitter">X (twitter)</li>
+                <li help-id="Meta">Meta (Fakebook)</li>
+                <li help-id="Alphabet">Alphabet domains (Google)</li>
+                <li help-id="microsoft">Microsoft (Skype, teams, etc.)</li>
+            </list>
+
+            <p>
+                By posting contents from or links to, and not limited to, any of
+                the mentioned above bad examples, your account are suspended as
+                fast as they are observed.
+            </p>
+
+            <p>
+                Other dislikes contents, are Mastodon and other Fediverse server
+                hosted on
+                <tooltip term="mitm">MITM</tooltip>
+                networks like
+                ClodFlare
+            </p>
+
+            <p>
+                Instances running behind the insecure and decrypting network
+                like CloudFlare and Amazon are silenced, and in some cases
+                blacklisted.
+            </p>
         </warning>
 
-        <p>
-            By posting contents from or links to, and not limited to, any of
-            the mentioned above bad examples, your account are suspended as
-            fast as they are observed.
-        </p>
+        <chapter caps="title" id="Religions" title="Religions">
+            <warning>
+                <p>
+                    Religious related accounts will be suspended.
+                </p>
+                <p>
+                    There are no other reasons compared to religion, that have
+                    costed a billion people their lives throughout the
+                    entire human history.
+                </p>
 
-        <p>
-            Other dislikes contents, are Mastodon and other Fediverse server
-            hosted on
-            <tooltip term="mitm">MITM</tooltip>
-            networks like ClodFlare
-        </p>
+                <p>
+                    We do not support war or killing.
+                </p>
 
-        <p>
-            Instances running behind the insecure and decrypting network like
-            CloudFlare and Amazon are silenced, and in some cases blacklisted.
-        </p>
+                <p>
+                    If you like to challenge my statement, please just look up
+                    in a history book or open your TV and watch the news.
+                    Period.
+                </p>
+                <p>
+                    You are of course <i>welcome to talk about religion in
+                    general</i> and for what is going on in this world.
+                </p>
 
+            </warning>
+        </chapter>
+
+        <chapter caps="title" id="spam" title="spam">
+            <warning>
+                <p>
+                    Spam will not be tolerated at all. Spam is defined as
+                    follows:
+                </p>
+
+                <list sorted="asc" type="decimal">
+                    <li>Unsolicited promoting</li>
+                    <li>Url Shortener's of any kind (because the
+                        destination is unclear)
+                    </li>
+                    <li>Promotion of any other services than My Privacy DNS
+                        <list type="alpha-lower">
+                            <li help-id="">This does not apply for mentioning in
+                                related speech to a subject
+                            </li>
+                        </list>
+                    </li>
+
+                    <li>Clickbait of ny kind, including the
+                        <tooltip term="big_tech">Big Tech</tooltip>
+                        and so-called "news" feeds
+                    </li>
+                    <li>Bots in general</li>
+                </list>
+            </warning>
+        </chapter>
+
+
+        <chapter caps="title" id="pets" title="Pets">
+
+            <chapter id="cats" title="Cats">
+                <warning>
+                    <p>
+                        Cats posting accounts will be suspended.
+                    </p>
+                    <p>
+                        Posting cats only is off limit. I do not believe in
+                        cats are funny or sweet in any way.
+                    </p>
+                    <p>
+                        If you are so thrilled over cats, I recommend you to
+                        sign up to a furry instances.
+                    </p>
+                </warning>
+            </chapter>
+
+        </chapter>
+
+        <chapter id="illegal_contents" title="Illegal contents">
+            <warning>
+                <p>
+                    This server is located in Germany and German law applies.
+                    This means very precise we will terminate your account
+                    without further notice and warning if you do post any
+                    severe illegal contents like "Child Sexual Abusive
+                    Material" or in any other way are using any of My Privacy
+                    DNS services, here under and not limited to
+                    matrix.rocks, to in any way distributing such things.
+                </p>
+            </warning>
+        </chapter>
     </chapter>
 
+    <chapter caps="title" id="user_management" title="User management">
+        <p>
+            On this server we will - unlike a lot of other servers - actually
+            try to communicate with our members, before taking any actions
+            against a user account.
+        </p>
+        <p>
+            We will do this to ensure you have understood the concept of our
+            service, and that you just not had a bad day, we are all humans
+            after all.
+        </p>
+        <p>
+            If you are in doubt of anything, please just reach out for one of
+            the Admins or moderators, they will be pleased to help you the
+            best they can.
+        </p>
+        <p>
+            In cases where communication and dialog has been unsuccessful with a user,
+            the moderators & admins will talk about your account, to ensure the best
+            possible future for you and your account at matrix.
+        </p>
+        <p>
+            Suspension of a user account can be called for a public democratic
+            voting!
+        </p>
+
+        <chapter title="Forbidden Username" id="forbidden_username">
+            <warning>
+        <p>
+            Using username to do following things are not allowed and will result in
+            account suspension without warning.
+        </p>
+        <list>
+            <li>Impersonation (e.g. <code>"mypdns-staff"</code>
+                <code>"mypdns-official"</code>
+                <code>"microsoft"</code>)</li>
+            <li>Spam (e.g. <code>"6gjex6rgfrtrby"</code>)</li>
+            <li>Porn-related (e.g. <code>"IPostYourNodeForYou"</code>
+                <code>"VaginaRocks"</code>)</li>
+        </list>
+            </warning>
+        </chapter>
+    </chapter>
+
+    <chapter title="Code of Conduct" id="code_of_conduct">
+    <warning>
+        <p>
+        You are responsible for your postings and sharing.
+    </p>
+        <p>
+            You are expected to read and follow our
+            <a href="https://github.com/mypdns/matrix/blob/master/CODE_OF_CONDUCT.md">Covenant Code of Conduct</a>.
+        </p>
+    </warning>
+    </chapter>
 </topic>

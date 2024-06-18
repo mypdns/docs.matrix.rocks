@@ -8,22 +8,36 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <p>
+        Privacy and Blacklist maintenance will be our focus point.
+        However, this is not a zero log instance; we do however log as little as
+        possible, while ensuring server stability.
+    </p>
+    <p>
+        Logs are only uses for solving bad things.
+    </p>
+    <p>
         At <a href="https://matrix.rocks/"
               title="Matrix.rocks log sevice">https://matrix
         .rocks/</a>, we do have two kind of logging systems
         enabled.
     </p>
+
     <procedure id="whatislogging" title="What is logging">
         <step>The webserver Log, deleted after second log rotation</step>
-
-        <step>MissKeys log, not storing IP addresses</step>
-
+        <step>Our MissKeys instance do not log IP addresses</step>
+        <step>We run a cron command to delete rotated logs every hour:
+            <list>
+                <li><code>find /var/log/ -type f -name "*.gz"
+                    -delete>/dev/null 2>&1</code></li>
+                <li><code>find /var/log/ -type f -name "*.1"
+                    -delete>/dev/null 2>&1</code></li>
+            </list>
+        </step>
     </procedure>
 
 
     <chapter id="before" title="How are the logs used">
         <p>We are using the logs for two thing, an only these two things.</p>
-
         <list>
             <li>In case of disruption, we are using the logs for
                 investigate and find a solution

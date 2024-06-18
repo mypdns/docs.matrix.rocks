@@ -7,13 +7,79 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
+    <chapter title="About" id="about">
     <p>
-        You can always find actual changes through this public documentation.
+        This Mastodon Fediverse server instance is part of
+        <a href="https://mypdns.org/">My Privacy DNS</a>, managed by
+        Spirillen aka. <code>@spirillen@matrix.rocks</code> &
+        <code>@Jerry@matrix.rocks</code>.
+    </p>
+    <p>
+        Primary topics are about Internet #privacy, security, RPZ (Response
+        policy zone) and other #Blacklist related topics.
+    </p>
+        <p>
+        Other Common usage is also very welcome.
     </p>
 
+    <p>
+        This server diverse from many other fediverse networks, as we prioritize
+        your privacy, such as notifying about Cloudflare link in your post. See
+        also blocked servers.
+    </p>
+    <p>
+        This instance is **the first in the world** to ever be blocking
+        for <b>ALL</b> CloudFlare hosted fediverse server, the absolutely
+        first standing server.
+
+        The First Fediverse server that ever did this was
+        <a href="https://matrix.rocks/">matrix.rocks</a>, managed by My
+        Privacy DNS, which was the third attempt to run a CloudFlare free
+        instance of the fediverse.
+    </p>
+    <p>
+        I like the MissKey and might keep it alive as long as possible for my
+        personal amusement.
+    </p>
+    </chapter>
+
+    <chapter title="Reporting contents" id="reporting_contents">
+        <p>
+            If you feel like reporting any post of https://matrix.rocks, you
+            will need to apply the following contents to the report,
+            otherwise, we just closing it, and no further action is taken.
+        </p>
+
+        <list>
+            <li>Link to the message(s)</li>
+            <li>Meaningful description that explain exactly what this report is
+                about, in details that can not be misunderstood.</li>
+            <li>If we ask you a question, you'll have one week to reply, or
+                the report is closed for good.</li>
+        </list>
+
+        <p>
+            If you fails to comply any of these requirements, the report is closed
+            for good, and you will be listed in the hall
+            of shame on the fediverse.
+        </p>
+
+        <p>
+            If we keep getting incomplete reports (Spamming) from any domain,
+            we keep the right to Blacklist that server from sending further
+            reports (Report Spam) to us.
+        </p>
+
+        <p>
+            Are you a user of one of our services, you might be silenced, if
+            you keep posting bad reports (Spamming) and your account can be
+            suspended without further notice
+        </p>
+    </chapter>
+             
     <chapter id="feedback-and-support" title="Feedback and support">
         Please report any issues, usability improvements, or feature requests
-        to the
+        to
         <a href="https://kb.mypdns.org/newIssue?project=MR">My Privacy DNS
             project</a>
         (you will need to register).

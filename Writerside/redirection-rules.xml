@@ -23,4 +23,9 @@
         </description>
         <accepts>Starter.html</accepts>
     </rule>
+    <rule id="1047186">
+        <description>Created after removal of "Tutorial" from Matrix
+        </description>
+        <accepts>Tutorial.html</accepts>
+    </rule>
 </rules>
