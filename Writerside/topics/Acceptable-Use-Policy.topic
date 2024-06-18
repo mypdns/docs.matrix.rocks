@@ -523,8 +523,10 @@
             best they can.
         </p>
         <p>
-            In cases where communication and dialog has been unsuccessful with a user,
-            the moderators & admins will talk about your account, to ensure the best
+            In cases where communication and dialog has been unsuccessful with a
+            user,
+            the moderators and admins will talk about your account, to ensure
+            the best
             possible future for you and your account at matrix.
         </p>
         <p>
@@ -532,33 +534,37 @@
             voting!
         </p>
 
-        <chapter title="Forbidden Username" id="forbidden_username">
+        <chapter id="forbidden_username" title="Forbidden Username">
             <warning>
-        <p>
-            Using username to do following things are not allowed and will result in
-            account suspension without warning.
-        </p>
-        <list>
-            <li>Impersonation (e.g. <code>"mypdns-staff"</code>
-                <code>"mypdns-official"</code>
-                <code>"microsoft"</code>)</li>
-            <li>Spam (e.g. <code>"6gjex6rgfrtrby"</code>)</li>
-            <li>Porn-related (e.g. <code>"IPostYourNodeForYou"</code>
-                <code>"VaginaRocks"</code>)</li>
-        </list>
+                <p>
+                    Using username to do following things are not allowed and
+                    will result in
+                    account suspension without warning.
+                </p>
+                <list>
+                    <li>Impersonation (e.g. <code>"mypdns-staff"</code>
+                        <code>"mypdns-official"</code>
+                        <code>"microsoft"</code>)
+                    </li>
+                    <li>Spam (e.g. <code>"6gjex6rgfrtrby"</code>)</li>
+                    <li>Porn-related (e.g. <code>"IPostYourNodeForYou"</code>
+                        <code>"VaginaRocks"</code>)
+                    </li>
+                </list>
             </warning>
         </chapter>
     </chapter>
 
-    <chapter title="Code of Conduct" id="code_of_conduct">
-    <warning>
-        <p>
-        You are responsible for your postings and sharing.
-    </p>
-        <p>
-            You are expected to read and follow our
-            <a href="https://github.com/mypdns/matrix/blob/master/CODE_OF_CONDUCT.md">Covenant Code of Conduct</a>.
-        </p>
-    </warning>
+    <chapter id="code_of_conduct" title="Code of Conduct">
+        <warning>
+            <p>
+                You are responsible for your postings and sharing.
+            </p>
+            <p>
+                You are expected to read and follow our
+                <a href="https://github.com/mypdns/matrix/blob/master/CODE_OF_CONDUCT.md">Covenant
+                    Code of Conduct</a>.
+            </p>
+        </warning>
     </chapter>
 </topic>
