@@ -77,7 +77,7 @@
 
                 <p>
                     Adult contents is accepted, but not at the big distribution
-                    central for free as it will eat up our disk space rather
+                    central for free, as it will eat up our disk space rather
                     quickly.
                 </p>
                 <p>
@@ -169,12 +169,16 @@
 
                 <def id="explicit-even-it-is-covered-by-the-art-exception"
                      title="Explicit even it is covered by the art
-                    exception.">
+                    exception">
+
+                    <p>Explicit even it is covered by the art
+                        exception.</p>
 
                     <code-block lang="http">
                         https://matrix.rocks/notes/9uneudnsj3
                         https://matrix.rocks/notes/9uncp740pc
                         https://matrix.rocks/notes/9unmeodn7u
+                        https://matrix.rocks/notes/9uqnjf0wtf
                     </code-block>
 
                 </def>
@@ -407,9 +411,14 @@
             </p>
 
             <p>
-                Instances running behind the insecure and decrypting network
-                like CloudFlare and Amazon are silenced, and in some cases
-                blacklisted.
+                Instances running behind the insecure and decrypting networks
+                like CloudFlare and Amazon are
+                <tooltip term="silenced">silenced</tooltip>
+                , and in some cases
+                <tooltip term="blacklist_server">
+                    blacklisted
+                </tooltip>
+                .
             </p>
         </warning>
 

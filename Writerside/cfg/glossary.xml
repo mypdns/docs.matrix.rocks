@@ -9,6 +9,11 @@
         Amazon, Apple, Meta, and Microsoft.
     </term>
 
+    <term name="blacklist_server">
+        Blacklisted instances will no longer be able to communicate with this
+        instance
+    </term>
+
     <term name="DNS">Domain Name Service</term>
 
     <term name="fediverse">The fediverse is a collection of social networking
@@ -44,6 +49,12 @@
 
     <term name="rule">Rules most be obeyed, these are laws. Breaking any
         rules might very well lead to suspension of your user account.
+    </term>
+
+    <term name="silenced">
+        All accounts of the listed instances will be treated as silenced, can
+        only make follow requests, and cannot mention local accounts if not
+        followed. This will not affect blocked instances.
     </term>
 
     <term name="suspend_account">Account suspension, is when you no
