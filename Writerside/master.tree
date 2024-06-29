@@ -11,6 +11,7 @@
         <toc-element topic="About.topic"/>
         <toc-element topic="Acceptable-Use-Policy.topic"/>
         <toc-element topic="FAQ.topic">
+            <toc-element topic="Reposting.topic"/>
             <toc-element topic="MITM.topic"/>
         </toc-element>
         <toc-element topic="Privacy.topic"/>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM
+        "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic id="Reposting"
+       title="Reposting"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+
+    <p>
+        If you are running a
+        <tooltip term="bot">bot</tooltip>
+        or a CloudFlare connected user account, or you toot's
+        <tooltip term="privacy">privacy</tooltip>
+        violating URI's and think any user repost (retoot) "yours" content...
+        then please remember the following things:
+    </p>
+
+    <p>
+        By posting from one of these instances mentioned above or posting
+        contents linking to any equal, you have been violating a lot of good
+        Netiquette, Violated me and my fundamental human right to privacy,
+        freedom and democracy. You have been violating the Maastricht Treaty
+        by taking away users they option for free speech, free surfing of the
+        internet, there right to freely obtain knowledge and rights to free
+        opinion, by forcing them to have there action harvested, stolen,
+        collected and sold to corporations, for whom, the free will and
+        rights to freedom and democracy is pure evil, and is against they
+        Capitalist goal of controlling the world and the minds of all other
+        but them self.
+    </p>
+
+    <list sorted="asc" type="bullet">
+        <li>
+            It is with 99.9999% certainty not your original work. You stole
+            it from somewhere else, trying to make it yours.
+        </li>
+        <li>
+            You post so much shit, We can't and won't help boosting your (bot)
+            account(s).
+        </li>
+        <li>
+            Your post(s) contained a privacy violating URI, We put us self on
+            the list of allowed users to repost. We will try to remember
+            <b>NOT</b> to post credit to origin posts... Please don't shoot
+            me, You stated violating everyone privacy, and you are of curse
+            <b>NOT</b> welcome to add the link to original post as comment.
+        </li>
+        <li>
+            If a post contains a link to a walled garden domain (e.g.
+            Alphabet, Facebook, Cloudflare or Quora), We will not boost it.
+            All posts we write and all boosts from us are openly accessible
+            to everyone. (Public domain access)
+        </li>
+        <li>AI Generated contents is everybody's contents by curt ruling, the
+            work is NOT yours and therefor not copyrighted, maybe you asked the
+            Cluster of Computers thieves to generate you something from stolen
+            work, that the cluster have been steeling against Licence this
+            includes and not limited to OSS Licence as CC-BY-* AGPLv3 etc.
+        </li>
+    </list>
+
+    <chapter id="reposting"
+             title="Reposting insecure content">
+        <p>All the above is about making sure the content of a toot (post)
+            is sent over a secure and privacy respecting network of servers,
+            to ensure free access to the contents from a location that is not
+            under mass surveillance by any company, enemy or state.
+        </p>
+
+        <p>
+            If any user repost any contents of an account type mentioned
+            above, you should be thankful and sent them your gratitude for do
+            so.
+        </p>
+
+        <p>
+            In case you think otherwise, and thinks you should block our
+            services, you are of curse free to do so, just remember you are
+            doing the anti-democratic forces jobs and you are operating on
+            theirs behalf, not your own.
+        </p>
+    </chapter>
+    <chapter id="glossary" title="Glossary">
+        <p>A definition list or a glossary:</p>
+        <deflist>
+            <def title="Netiquette">
+                This is the definition of the first term.
+            </def>
+            <def title="Cloudflare">
+                This is the definition of the second term.
+            </def>
+        </deflist>
+    </chapter>
+</topic>

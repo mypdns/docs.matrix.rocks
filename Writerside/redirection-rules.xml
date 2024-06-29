@@ -28,4 +28,13 @@
         </description>
         <accepts>Tutorial.html</accepts>
     </rule>
+    <rule id="429b700a">
+        <description>Created after removal of "test" from Matrix</description>
+        <accepts>test.html</accepts>
+    </rule>
+    <rule id="331190ef">
+        <description>Created after removal of "Reference" from Matrix
+        </description>
+        <accepts>Reference.html</accepts>
+    </rule>
 </rules>

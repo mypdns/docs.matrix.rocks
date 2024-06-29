@@ -14,6 +14,16 @@
         instance
     </term>
 
+    <term name="bot">
+        Bot is an account that is used to automatically posts contents, for
+        which most likely is to be considered as Click Bait nad spam.
+    </term>
+
+    <term name="clickBait">
+        Clickbait is a text or a thumbnail link that is designed to attract
+        attention and to entice users to follow that link.
+    </term>
+
     <term name="DNS">Domain Name Service</term>
 
     <term name="fediverse">The fediverse is a collection of social networking
@@ -55,6 +65,12 @@
         All accounts of the listed instances will be treated as silenced, can
         only make follow requests, and cannot mention local accounts if not
         followed. This will not affect blocked instances.
+    </term>
+
+    <term name="spam">
+        Unsolicited content, often of a commercial nature, sent
+        indiscriminately to multiple mailing lists, individuals, or newsgroups;
+        junk e-mail.
     </term>
 
     <term name="suspend_account">Account suspension, is when you no
