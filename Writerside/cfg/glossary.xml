@@ -19,6 +19,11 @@
         which most likely is to be considered as Click Bait nad spam.
     </term>
 
+    <term name="COC">
+        Code of Conduct, is a set of rules, that aims to help to administer
+        a open fora in a language that includes all users
+    </term>
+
     <term name="clickBait">
         Clickbait is a text or a thumbnail link that is designed to attract
         attention and to entice users to follow that link.
@@ -26,8 +31,11 @@
 
     <term name="DNS">Domain Name Service</term>
 
-    <term name="fediverse">The fediverse is a collection of social networking
-        services that can communicate with each other using a common protocol.
+    <term name="fediverse">The fediverse is a collection of community-owned,
+        ad-free, decentralized, and privacy-centric social networks.
+
+        The fediverse is a collection of social networking services that can
+        communicate with each other using a common protocol.
         Users of different websites can send and receive status updates,
         multimedia files and other data across the network. The term fediverse
         is a portmanteau of "federation" and "universe".

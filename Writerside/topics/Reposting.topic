@@ -7,6 +7,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
+    <!-- source: https://matrix.rocks/notes/9lt6n5fmk1 -->
+
     <p>
         If you are running a
         <tooltip term="bot">bot</tooltip>
@@ -85,10 +87,32 @@
         <p>A definition list or a glossary:</p>
         <deflist>
             <def title="Netiquette">
-                This is the definition of the first term.
+                A codecs for how to behave on the internet. At <a
+                    href="https://matrix.rocks/">https://matrix.rocks/</a>
+                this is our
+                <tooltip term="COC">COC</tooltip>
             </def>
             <def title="Cloudflare">
-                This is the definition of the second term.
+                A network designed to intercept all communication on the
+                internet via its MITM activities. This means all domains
+                running through this network are insecure as all traffic is
+                intercepted (Putin style) and sold.
+            </def>
+            <def id="fediverse" title="Fediverse">
+                <p>
+                    The fediverse is a collection of community-owned, ad-free,
+                    decentralized, and privacy-centric social networks.
+                </p>
+                <p>
+                    The fediverse is a collection of social networking services
+                    that can communicate with each other using a common
+                    protocol. Users of different websites can send and receive
+                    status updates, multimedia files and other data across the
+                    network. The term fediverse is a portmanteau of "federation"
+                    and "universe". The majority of fediverse platforms that are
+                    available are free and open-source software, and are based
+                    on the ActivityPub protocol.
+                </p>
             </def>
         </deflist>
     </chapter>
