@@ -2,8 +2,8 @@
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
     <variables>
         <primary-color>emerald</primary-color>
-        <!--        <custom-favicons>favicon.png</custom-favicons>-->
-        <!--        <header-logo>my-logo.png</header-logo>-->
+        <custom-favicons>favicon.png</custom-favicons>
+        <header-logo>logo.png</header-logo>
         <product-web-url>https://docs.matrix.rocks</product-web-url>
         <download-title>Matrix Fediverse</download-title>
         <download-page>https://matrix.rocks</download-page>
