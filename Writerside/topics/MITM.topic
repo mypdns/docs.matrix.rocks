@@ -45,9 +45,6 @@
             <def title="MITM">
                 Man in the middle
             </def>
-            <def title="Term2">
-                This is the definition of the second term.
-            </def>
         </deflist>
     </chapter>
 </topic>

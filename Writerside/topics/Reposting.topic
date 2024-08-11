@@ -79,20 +79,20 @@
         <p>
             In case you think otherwise, and thinks you should block our
             services, you are of curse free to do so, just remember you are
-            doing the anti-democratic forces jobs and you are operating on
+            doing the anti-democratic forces jobs, and you are operating on
             theirs behalf, not your own.
         </p>
     </chapter>
     <chapter id="glossary" title="Glossary">
         <p>A definition list or a glossary:</p>
         <deflist>
-            <def title="Netiquette">
+            <def id="netiquette" title="Netiquette">
                 A codecs for how to behave on the internet. At <a
                     href="https://matrix.rocks/">https://matrix.rocks/</a>
                 this is our
                 <tooltip term="COC">COC</tooltip>
             </def>
-            <def title="Cloudflare">
+            <def id="cloudflare" title="Cloudflare">
                 A network designed to intercept all communication on the
                 internet via its MITM activities. This means all domains
                 running through this network are insecure as all traffic is

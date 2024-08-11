@@ -37,4 +37,8 @@
         </description>
         <accepts>Reference.html</accepts>
     </rule>
+    <rule id="390a0e86">
+        <description>Created after removal of "Nude photography" from Matrix</description>
+        <accepts>Nude-photography.html</accepts>
+    </rule>
 </rules>
